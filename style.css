@@ -1,0 +1,87 @@
+.pros{
+    width: 100%;
+    height: 500px;
+}
+.responsive1 {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+ div.gallery1:hover {
+  border: 1px solid #777;
+}
+
+div.gallery1 img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+div.desc1 {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+.clearfix1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media only screen and (max-width: 700px) {
+  .responsive1 {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive1 {
+    width: 100%;
+  }
+}
+.tab-pane-fade{
+    border-color: black;
+    border: 3px solid balck;
+    margin: 15px;
+    
+}
+.container1{
+  height: 800px;
+}
+.experiences{
+  width: 100%;
+}
+.students{
+  height: 600px;
+}
+.academics{
+  margin:8px;
+}
+.video-wrap{
+  width:300px;
+}
+.founding{
+  margin: 15px;
+}
+.partners{
+ height: 300px;
+}
+.part1{
+  width: 100%;
+}
+.part2{
+  
+  height: 300px;
+  width: 100%;
+  justify-content: center;
+	align-content: center;
+
+	img{
+		border-radius:20px ;
+	}
+}
+.vid{
+ font-size: larger;
+}
